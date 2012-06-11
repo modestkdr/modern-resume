@@ -1,0 +1,365 @@
+/* ==== Global ==== */
+body {
+	margin:3em auto;
+	background:url('../background-patterns/bg.jpg');
+}
+h2 {
+	margin-top:25px;
+	border-bottom:1px solid #ccc;
+}
+a {
+	text-decoration:none;
+}
+
+
+/* ==== Helpers ==== */
+.fleft {
+	float:left;
+}
+.fright {
+	float:right !important;
+}
+a.link {
+	color:#2280C1;
+}
+
+/* ==== Content section ==== */
+.container {
+	padding:2.5em auto; 
+}
+#main {
+	border:solid #DAD7D2;
+	border-width:10px 1px 4px 1px;
+	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+		-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+	background: white;
+}
+#logo {
+	display:none;
+}
+#header {
+	margin:2em 0;
+}
+#header .siteinfo {
+	padding-left:10px;	
+}
+.siteinfo {
+	margin-bottom:30px;
+}
+	.siteinfo h1 {
+		margin-top:20px;
+		line-height:30px;
+	}
+	.siteinfo h3 {
+		line-height:25px;
+		color:#999;
+		font-family:'Goudy Bookletter 1911',serif !important;
+	}
+
+/* ==== Tabs ==== */
+
+ul.tabs {
+	border:0;	
+}
+	ul.tabs li a {
+		font-family:'Exo', sans-serif;
+	}
+	ul.tabs a:hover {
+		background: #ccc;
+	}
+	ul.tabs li:first-child a {
+		border-radius:20px 0 0 20px;
+	}
+	ul.tabs li:last-child a  {
+		border-radius:0 20px 20px 0;
+	}
+	ul.tabs li a.active {
+		color: #2280C1;
+		font-weight: bold;
+	}
+
+
+/* ==== Home tab ==== */
+
+#profie-image {
+	border-radius:60px;
+	margin:0 4%;
+	box-shadow:2px 2px 7px #666;
+}
+.social li {
+	float:left;
+	margin:0 8px;
+	padding:3px;
+	border-radius:50px;
+	border:5px solid #ddd;
+	background:#fefefe;
+}
+.social li:hover {
+	border-color:#eee;
+	background:#ddd;	
+}
+.recent-works {
+	max-width:400px !important;
+}
+.flex-nav-container {
+	margin-bottom:30px;
+}
+
+
+/* ====  Skills and Experience tab  ====*/
+
+.dates {
+	font-family: 'PT Sans Narrow', cursive;
+	color:#777;
+	font-size:13px;
+	float:right;
+	font-weight:bold;
+	background: #ececec;
+	padding: 1px 2px;
+	border: 1px solid #ccc;
+	border-radius:4px;
+}
+	/* Skills section */
+	#skills-graph ul {
+		list-style:none;
+		padding:0;
+	}
+	#skills-graph ul li { 
+		background: #ebebeb;
+		margin:2px 0;
+		width:250px;
+	}
+	#skills-graph ul li div { 
+		width: 100px;
+		height: 34px;
+	}
+	.skills li {
+		float:right;
+		padding:0 15px;
+		height:35px;
+		line-height:35px;
+		color:white;
+		margin-bottom:2px;
+	}
+		 .skill-1 {
+			background:#97BE0D;
+		}
+		 .skill-2 {
+			background:#D84F5F;
+		}
+		 .skill-3 {
+			background:#88B8E6;
+		}
+		 .skill-4 {
+			background:#BEDBE9;
+		}
+		.skill-5 {
+			background:#ddd;
+		}
+
+.job {
+	margin:0 0 45px 0;
+}
+	.job h3 {
+		font-size: 22px; 
+		line-height: 25px; 
+		margin-bottom: 1px;
+		color:#222;
+	}
+	.job h4 {
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 8px;
+		color:#505050;
+		font-family:'Goudy Bookletter 1911',serif !important;
+	}
+#skills-experience-tab h3 {
+	font-size:20px;
+	margin-bottom:4px;
+	line-height:22px;
+}
+#skills-experience-tab h4 {
+	font-size:16px;
+	margin-top:5px;
+	margin-bottom:10px;
+	line-height:18px;
+	color:#666;
+}
+
+
+/*==== Contact tab ====*/
+
+.map {
+	border:10px solid #dcdcdc;
+	overflow:hidden;
+}
+.contact-details ul {
+	margin-bottom:15px;
+}
+.contact-type {
+	color:#505050;
+	font-weight:bold;
+	font-family:'Goudy Bookletter 1911',serif;
+	font-size:1.45em;
+}
+#response {
+	display: none;
+	border: 1px solid #ccc;
+	background: #FFFFA0;
+	padding: 10px;
+	width: 450px;
+}
+.mail {
+	width:500px;
+	margin:auto;
+}
+
+/* ==== Portfolio tab ====*/
+
+.item {
+	position:relative;
+}
+.item:hover {
+	 opacity:1;
+    -moz-opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+}
+	.mask, .mask .item-title, .mask .item-description {
+		display:block;	
+	}
+	.mask {
+		opacity:0;
+	    -moz-opacity:0;
+	    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	    -moz-transition:opacity 0.3s;
+	    -webkit-transition:opacity 0.3s;
+	    -o-transition:opacity 0.3s;
+	    transition:opacity 0.3s;
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		text-align:center;
+		background:#222;
+	    background:rgba(0,0,0,0.7);
+	    background:-moz-linear-gradient(0% 100% 90deg, rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+	    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,0.9)), to(rgba(0,0,0,0.5)));
+	}
+	
+	.mask .item-title {
+		color:#FFBF44;
+		margin:4px 0 8px 0;
+		font-size:1.3em;
+		font-wweight:bold;
+		background:black;
+		padding:2px 0;
+		border-bottom:1px solid #333;
+	}
+	.mask .item-description {
+		padding:2px 10px;
+		color:white;
+	}
+	.mask:hover, .mask:active {
+	    opacity:1;
+	    -moz-opacity:1;
+	    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	}
+
+.filter.group li {
+	margin:0 10px;
+	background:#707070;
+	padding:2px 4px;
+	border-radius:5px;
+}
+.filter.group li.current, .filter.group li.current:hover {
+	background:#e0e0e0;
+}
+	.filter.group li a {
+		color:white;
+	}
+	.filter.group li:hover {
+		background:#333;
+	}
+	.filter.group li.current a {
+		color:black;
+	}
+
+/* Filterable grid */
+ul ul, ul ol, ol ol, ol ul {
+	margin:0;
+	font-size:inherit;
+}
+
+
+/* ==== Media Queries ==== */
+  @media only screen and (max-width: 767px) {
+   .portfolio .group {
+    	padding:0 20px 0 20px;
+    }
+    h1, h2, .group, dt, h3, h4, p, span, form {
+    	margin:12px;
+    }
+	.flex-direction-nav {
+		display:none;
+	 }
+	 #main-menu {
+	 	padding-bottom:15px;
+	 	border-bottom:2px double #ddd;
+	 }
+	ul.tabs li {
+	 	float:none;
+	 	text-align:center;
+	 }
+		ul.tabs li a {
+			border-radius:0 !important;
+		    border-width:1px 1px 0 1px;
+		}
+	.siteinfo {
+		margin:0;
+		padding-left:0;
+	}
+	.siteinfo h1 {
+		line-height:25px;
+		margin:8px 0;
+	}
+	.siteinfo h3 {
+		line-height:20px;
+		margin:4px 0 20px 0;
+	}
+	.social li {
+		border-width:2px;
+	}
+	.profile, .siteinfo {
+		text-align:center;
+	}
+	.filter.group li {
+		margin:4px 8px 6px 4px;
+		padding:1px;
+	}
+  }
+
+/* ==== Style Switcher ==== */
+#style-switcher {
+		/* display:none; */
+		position:absolute;
+		left:0;
+		top:130px;
+		width:25px;
+		padding:10px;
+		background-color: #000;
+		border-radius: 0 4px 4px 0;
+		-moz-border-radius: 0 4px 4px 0;
+		-webkit-border-radius: 0 4px 4px 0;
+		}
+	#style-switcher ul li img {
+		margin-bottom:5px;
+		border:1px solid #FFF;
+		}
+	#style-switcher ul {
+		margin-bottom:4px;
+	}
+	#style-switcher ul li:last-child {
+		margin-bottom:0;
+	}
