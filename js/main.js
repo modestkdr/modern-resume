@@ -1,13 +1,13 @@
-$(document).ready(function() {	  
+$(document).ready(function() {	
 
 	/* Show the logo section */
 	$('#portfolio-t, #skills-experience-t, #contact-t').click(function() { 
-		$('#logo').fadeIn('4000');
+		$('#clone-site-details').fadeIn('4000');
 	});
 	  
 	 /* Hide the logo section on homepage */
 	 $('#home-t').click(function() {
-		 $('#logo').fadeOut('4000');
+		 $('#clone-site-details').fadeOut('4000');
 	 })
 	
 	/* Animate Skills */
