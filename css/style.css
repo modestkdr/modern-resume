@@ -298,7 +298,7 @@ ul ul, ul ol, ol ol, ol ul {
    .portfolio .group {
     	padding:0 20px 0 20px;
     }
-    h1, h2, .group, dt, h3, h4, p, span, form {
+    h1, h2, .group, dt, h3, h4, p, span, form, ul.contact-details {
     	margin:12px;
     }
 	.flex-direction-nav {
