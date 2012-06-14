@@ -62,6 +62,9 @@ $(document).ready(function() {
 		}
 		return false;
 	});
+	
+	/* Clone Site Details */
+	$("#site-details").clone().appendTo("#clone-site-details");
 });
 
 /* Flex Slider */
