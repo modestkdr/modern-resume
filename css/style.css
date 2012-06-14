@@ -342,7 +342,7 @@ ul ul, ul ol, ol ol, ol ul {
 
 /* ==== Style Switcher ==== */
 #style-switcher {
-		/* display:none; */
+		display:none; 
 		position:absolute;
 		left:0;
 		top:130px;
