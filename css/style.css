@@ -22,6 +22,9 @@ a {
 a.link {
 	color:#2280C1;
 }
+.vertical-spacing {
+	margin-top:40px;
+}
 
 /* ==== Content section ==== */
 .container {
