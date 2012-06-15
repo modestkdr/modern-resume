@@ -315,10 +315,9 @@ ul ul, ul ol, ol ol, ol ul {
 	.flex-direction-nav {
 		display:none;
 	 }
-	 #main-menu {
-	 	padding-bottom:15px;
-	 	border-bottom:2px double #ddd;
-	 }
+	ul.tabs li:last-child a {
+		border-bottom:1px solid #ddd;
+	}
 	ul.tabs li {
 	 	float:none;
 	 	text-align:center;
@@ -339,8 +338,18 @@ ul ul, ul ol, ol ol, ol ul {
 		line-height:20px;
 		margin:4px 0 20px 0;
 	}
+	.social ul li img {
+		width:20px;
+		height:20px;
+	}
+	#main .social {
+		width:80%;
+		margin:0 auto;
+	}
 	.social li {
 		border-width:2px;
+		border-radius:20px;
+		margin:0 5px;
 	}
 	.profile, .siteinfo {
 		text-align:center;
@@ -349,11 +358,14 @@ ul ul, ul ol, ol ol, ol ul {
 		margin:4px 8px 6px 4px;
 		padding:1px;
 	}
+	.portfolio-content {
+		width:80%;
+		margin:0 auto;
   }
+}
 
 /* ==== Style Switcher ==== */
 #style-switcher {
-		display:none; 
 		position:absolute;
 		left:0;
 		top:130px;
