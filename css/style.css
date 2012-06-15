@@ -1,7 +1,3 @@
-.zoom-image:hover {
-	background:url(../theme/search-icon.png) no-repeat center center #f0f0f0;
-}
-
 /* ==== Global ==== */
 body {
 	margin:3em auto;
@@ -225,6 +221,10 @@ ul.tabs {
 
 /* ==== Portfolio tab ====*/
 
+.portfolio .group li {
+	border:4px solid #ccc;
+}
+
 .item {
 	position:relative;
 }
@@ -280,6 +280,9 @@ ul.tabs {
 	background:#707070;
 	padding:2px 4px;
 	border-radius:5px;
+}
+.zoom-image:hover {
+	background:url(../theme/search-icon.png) no-repeat center center #f0f0f0;
 }
 .filter.group li.current, .filter.group li.current:hover {
 	background:#e0e0e0;
