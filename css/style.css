@@ -1,3 +1,7 @@
+.zoom-image:hover {
+	background:url(../theme/search-icon.png) no-repeat center center #f0f0f0;
+}
+
 /* ==== Global ==== */
 body {
 	margin:3em auto;
@@ -26,6 +30,7 @@ a.link {
 	margin-top:30px;
 }
 
+
 /* ==== Content section ==== */
 .container {
 	padding:2.5em auto; 
@@ -34,8 +39,8 @@ a.link {
 	border:solid #DAD7D2;
 	border-width:10px 1px 4px 1px;
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-		-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 	background: white;
 }
 #clone-site-details {
@@ -228,17 +233,10 @@ ul.tabs {
     -moz-opacity:1;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 }
-	.mask, .mask .item-title, .mask .item-description {
-		display:block;	
-	}
 	.mask {
 		opacity:0;
 	    -moz-opacity:0;
 	    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	    -moz-transition:opacity 0.3s;
-	    -webkit-transition:opacity 0.3s;
-	    -o-transition:opacity 0.3s;
-	    transition:opacity 0.3s;
 		position:absolute;
 		top:0;
 		left:0;
@@ -250,7 +248,6 @@ ul.tabs {
 	    background:-moz-linear-gradient(0% 100% 90deg, rgba(0,0,0,0.5), rgba(0,0,0,0.9));
 	    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,0.9)), to(rgba(0,0,0,0.5)));
 	}
-	
 	.mask .item-title {
 		color:#FFBF44;
 		margin:4px 0 8px 0;
@@ -264,12 +261,20 @@ ul.tabs {
 		padding:2px 10px;
 		color:white;
 	}
+	.mask .launch {
+		color:#007BAA;
+		border:0;
+		font-weight: bold;
+	}
+	.mask .launch:hover {
+		color:#E3464A;
+		text-decoration:underline;
+	}
 	.mask:hover, .mask:active {
-	    opacity:1;
+		opacity:1;
 	    -moz-opacity:1;
 	    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	}
-
 .filter.group li {
 	margin:0 10px;
 	background:#707070;

@@ -28,5 +28,5 @@ dt { margin-right: 5px; }
 /* Portfolio Items */
 .portfolio li { float: left; margin-right: 10px; margin-bottom: 2em; border: 1px solid #ccc; -moz-box-shadow: 0 5px 5px -3px #222; -webkit-box-shadow: 0 5px 5px -3px #222; box-shadow: 0 5px 5px -3px #222; }
 /* .portfolio li:nth-child(4n) { margin-right: 0; } */
-.portfolio a { display: block; border: 3px solid #fff;  text-decoration: none; }
+.portfolio a { display:block; text-decoration: none; }
 .portfolio img { width: 210px; height: 130px; display: block; border: 1px solid #ccc; }
