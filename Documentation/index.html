@@ -42,55 +42,32 @@
 		<h2 id="toc" class="alt">Table of Contents</h2>
 		<ol class="alpha">
 			<li><a href="#overview">Overview</a></li>
-			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#htmlStructure">Website Structure</a></li>
 			<li><a href="#cssFiles">CSS Files and Structure</a></li>
 			<li><a href="#javascript">JavaScript</a></li>
-			<li><a href="#psdFiles">PSD Files</a></li>
-			<li><a href="#credits">Sources and Credits</a></li>
-			
-			<li><a href="#">PHP Code Explanation</a> <em class="quiet small">(If your theme uses PHP)</em></li>
-			<li><a href="#">Flash</a>  <em class="quiet small">(If your theme uses Flash)</em></li>
-			<li><a href="#">API Usage</a> <em class="quiet small">(If your theme uses an API)</em></li>
+			<li><a href="#credits">Sources and Credits</a></li>			
+			<li><a href="#">PHP Code Explanation</a> <em class="quiet small"></em></li>
 			<li><a href="#">Any additional unique features that need an overview</a></li>
 		</ol>
 		
 		<hr>
 		
 		<h3 id="overview"><strong>A) Overview</strong></h3>
-		<p>This is a responsive template which looks beautiful at any size, be it a laptop screen, tablet or a mobile browser.</p>
-		<p>Some of the highlights of this template are,
+		<div>This is a responsive template which looks beautiful at any size, be it a laptop screen, tablet or a mobile browser.</div>
+		<div>Some of the highlights of this template are,</div>
 			<ul>
-				<li><strong>Responsive Slideshow:</strong> to portray your recent works on the homepage.</li>
+				<li><strong>Responsive Slideshow:</strong> to display your recent works on the homepage.</li>
 				<li><strong>Portfolio:</strong> section to display your projects as a filterable grid.</li>
-				<li><strong>Animated Skills Graph:</strong> display your skills as a graph with a brief slider animation.</li>
 				<li><strong>Backgrounds:</strong> Multiple background patterns to choose from.</li>
+				<li><strong>Contact Form:</strong> A working contact form for website visitors to get in touch with you.</li>
 			</ul>
-		<h3 id="htmlStructure"><strong>B) HTML Structure</strong> - <a href="#toc">top</a></h3>
-		<p>All of the information within the main content area is nested within a div with an id of "primaryContent". The sidebar's (column #2) content is within a div with an id of "secondaryContent". The general template structure is the same throughout the template. Here is the general structure.</p>
+		<h3 id="htmlStructure"><strong>B) Website Structure</strong> - <a href="#toc">top</a></h3>
+		<p>Content of the website is presented as tabbed content. The opening and closing tags of each section are clearly marked with comments in the HTML code.</p>
 		
-		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
-		
-		<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
-
-<pre>	#primaryContent a {
-		color: #someColor;
-	} 
-</pre>
-
-		<p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
-
-		<p>I.E.</p>
-
-<pre>	#wrap #primaryContent a {
-		color: #someColor;
-	}
-</pre>
-
-		<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
-
 		<hr>
 
 		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+		<p>With responsive design in perspective, you will find many references to CSS classes like 'columns'. Here are a few examples to illustrate their usage.</p>
 
 		<p>I'm using two CSS files in this theme. The first one is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.</p> 
 

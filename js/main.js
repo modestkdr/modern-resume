@@ -2,12 +2,12 @@ $(document).ready(function() {
 
 	/* Show the logo section */
 	$('#portfolio-t, #skills-experience-t, #contact-t').click(function() { 
-		$('#clone-site-details').fadeIn('4000');
+		$('#clone-site-details, #clone-logo').fadeIn('4000');
 	});
 	  
 	 /* Hide the logo section on homepage */
 	 $('#home-t').click(function() {
-		 $('#clone-site-details').fadeOut('4000');
+		 $('#clone-site-details, #clone-logo').fadeOut('4000');
 	 })
  
 	/* Background Switcher */
@@ -54,6 +54,9 @@ $(document).ready(function() {
 	/* Clone Site Details */
 	$("#site-details").clone().appendTo("#clone-site-details");
 	
+	/* Clone logo */
+	$("#logo").clone().appendTo("#clone-logo");
+	
 });
 
 /* Flex Slider */
@@ -78,6 +81,7 @@ function send(datastr){
 	}
 	});
 }
+
 
 /* Tabs - Skeleton Boilerplate */
 (function ($) {

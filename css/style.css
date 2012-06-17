@@ -41,7 +41,7 @@ a.link {
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 	background: white;
 }
-#clone-site-details {
+#clone-site-details, #clone-logo {
 	display:none;
 }
 #header {
@@ -149,6 +149,7 @@ ul.tabs {
 	#skills div {
 		font-size: 14px;
 		color:#909090;
+		font-family: 'Exo', sans-serif;
 		
 	}
 	span.rating.one { width:16px; }
@@ -161,7 +162,8 @@ ul.tabs {
 		font-size: 22px; 
 		line-height: 25px; 
 		margin-bottom: 1px;
-		color:#222;
+		color:#444;
+		font-family:'Exo', sans-serif;
 	}
 	.job h4 {
 		font-size: 18px;
@@ -186,10 +188,6 @@ ul.tabs {
 
 /*==== Contact tab ====*/
 
-.map {
-	border:10px solid #dcdcdc;
-	overflow:hidden;
-}
 .contact-details ul {
 	margin-bottom:15px;
 }
@@ -301,7 +299,7 @@ ul ul, ul ol, ol ol, ol ul {
    .portfolio .group {
     	padding:0 20px 0 20px;
     }
-    h1, h2, .group, dt, h3, h4, p, span, form, ul.contact-details {
+    h1, h2, .group, dt, h3, h4, p, span, form, ul.contact-details, #skills div {
     	margin:12px;
     }
 	.flex-direction-nav {

@@ -36,6 +36,7 @@
 
 <body>
 <div class="columns sixteen container">
+	<div class="siteinfo" id="clone-logo"></div>
 	<div class="siteinfo" id="clone-site-details"></div>
 </div>
 <div class="columns sixteen container menu">
@@ -54,7 +55,7 @@
 		<li class="active" id="home">
 			<div id="header">
 				<div class="columns seven ">
-					<div class="columns two profile alpha">
+					<div id="logo" class="columns two profile alpha">
 						<!-- Start - Profile Image -->
 						<a href="#">
 							<img id="profie-image" alt="john doe" src="images/headshot.png" width="100" height="100" />
@@ -79,7 +80,7 @@
 					</ul>
 					<!-- End - Social Icons -->
 				</div>
-			</div>	<!--  header -->
+			</div>	<!-- END - header -->
 			<div class="columns sixteen">
 				<div class="columns eight">
 					<div class="columns seven">	
@@ -104,7 +105,7 @@
 						  		</li>
 						  		<li>
 						  		    <a href="#"><img alt="sample image" src="slideshow-images/8.png" /></a>
-						  		    <p class="flex-caption">This image is wrapped in a link.</p>
+						  		    <p class="flex-caption">Illustration design for fictious Ltd.</p>
 						  		</li>
 						  		<li>
 						  		     <img alt="sample image" src="slideshow-images/5.png" />
@@ -238,7 +239,7 @@
 		<!-- Start - Skills and Experience Tab -->
 		<li id="skills-experience">
 			<div class="columns sixteen">
-				<div class="columns seven">
+				<div class="columns seven">  <!--  Start - Professional Experience -->
 					<h2>Professional Experience</h2>
 					<!--  Start - Job 1 -->
 					<div class="row job">
@@ -255,7 +256,7 @@
 					<!--  Start - Job 2 -->	
 					<div class="row job">
 						<h3>Junior Web Developer <span class="dates">2010 - 2011</span></h3>
-						<h4>Fictious Technologies, Inc.</h4>
+						<h4>Myranix Tech Ltd.</h4>
 						<p>Responsible for development and maintenance of the business department website.The role included re-creating static web pages and moving content from the previous design to the new implementation.</p>
 						<ul class="circle">
 							<li>Website structure and content optimization for multiple client websites.</li>
@@ -263,7 +264,7 @@
 							<li>Sed quia non numquam eius modi</li>
 						</ul>
 					</div> <!--  End - Job 2 -->	
-				</div>
+				</div> <!--  End - Professional Experience -->
 				<!--  Start - Skills Section -->
 				<div class="columns seven row"> 
 					<h2>Skills</h2>
@@ -296,17 +297,12 @@
 		  </li> <!-- End - Skills and Experience Tab -->
 		  
 		<li id="contact">
-			<div class="columns sixteen">
-				<!--  Start - Google Map -->
-				<div class="map">		   	
-					<iframe width="920" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Mountain+View+Caltrain,+West+Evelyn+Avenue,+Mountain+View,+CA&amp;aq=2&amp;oq=mounta&amp;sll=37.343174,-122.058191&amp;sspn=0.014534,0.024183&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=Mountain+View+Caltrain,+600+W+Evelyn+Ave,+Mountain+View,+California+94041&amp;t=m&amp;z=14&amp;ll=37.393879,-122.076327&amp;output=embed"></iframe>
-				</div>
-				<!--  End - Google Map -->
-				
+			<div class="columns sixteen">		
 				<div class="columns seven">			
 				<!-- Start - Contact Info -->
 					<h2>Contact Info</h2>		
 					<div class="columns six">
+					<p>Donec ut metus in libero elementum pulvinar vitae quis sapien. Proin nec diam purus, at imperdiet diam. Vivamus auctor, purus et</p>
 						<ul class="contact-details">
 							<li>
 								<ul>
@@ -324,12 +320,6 @@
 								<ul>
 									<li class="contact-type">Fax</li>
 									<li>(937)-587-9045</li>
-								</ul>
-							</li>
-							<li>
-								<ul>
-									<li class="contact-type">Website</li>
-									<li><a class="link" href="#">johndoe.me</a></li>
 								</ul>
 							</li>
 							<li>
@@ -388,7 +378,8 @@
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 	<script type="text/javascript" src="js/jquery.quicksand.js"></script> 
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 
 <!-- End Document
