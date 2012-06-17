@@ -9,19 +9,7 @@ $(document).ready(function() {
 	 $('#home-t').click(function() {
 		 $('#clone-site-details').fadeOut('4000');
 	 })
-	
-	/* Animate Skills */
-	$("#skills-experience-t").click(function (){ 
-		animteSkills();		
-	});
-	 
-	 /* If the Skills and Experience tab is open,
-	    Animate Skills 
-	  */
-	 if(document.URL.indexOf("skills-experience") != -1) {
-		 animteSkills();
-		} 
-	 
+ 
 	/* Background Switcher */
 	$('.bg-switcher').click( function() {
 		var bgNumber = $(this).attr("value");
@@ -65,6 +53,7 @@ $(document).ready(function() {
 	
 	/* Clone Site Details */
 	$("#site-details").clone().appendTo("#clone-site-details");
+	
 });
 
 /* Flex Slider */
@@ -74,15 +63,6 @@ $(window).load(function() {
 		animationLoop: true,
 	});
 });
-
-/* Animate Skills */
-function animteSkills() {
-	$("#skills-graph .skill-1").animate({ width: "230" }, 5000); 
-	$("#skills-graph .skill-2").animate({ width: "150" }, 5000); 
-	$("#skills-graph .skill-3").animate({ width: "210" }, 5000);
-	$("#skills-graph .skill-4").animate({ width: "180" }, 5000);
-	$("#skills-graph .skill-5").animate({ width: "140" }, 5000);
-}
 
 /* Contact Form - send data string to the PHP script via ajax */
 function send(datastr){

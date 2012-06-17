@@ -241,7 +241,7 @@
 				<div class="columns seven">
 					<h2>Professional Experience</h2>
 					<!--  Start - Job 1 -->
-					<div class="job">
+					<div class="row job">
 						<h3>Web Development Engineer <span class="dates">Mar 2010 - Jun 2011</span></h3>
 						<h4>Fictious Technologies, Inc.</h4>
 						<p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est. Qui dolorem ipsum quia dolor sit amet, consectetur in.</p>
@@ -253,7 +253,7 @@
 					</div>	<!--  End - Job 1 -->
 					
 					<!--  Start - Job 2 -->	
-					<div class="job">
+					<div class="row job">
 						<h3>Junior Web Developer <span class="dates">2010 - 2011</span></h3>
 						<h4>Fictious Technologies, Inc.</h4>
 						<p>Responsible for development and maintenance of the business department website.The role included re-creating static web pages and moving content from the previous design to the new implementation.</p>
@@ -264,39 +264,35 @@
 						</ul>
 					</div> <!--  End - Job 2 -->	
 				</div>
-				<div class="columns eight">
-					<!--  Start - Skills Section -->
+				<!--  Start - Skills Section -->
+				<div class="columns seven row"> 
 					<h2>Skills</h2>
-					<div class="columns two">
-						<!--  Start - Skill Names -->
-						<div class="skills">
-							<ul>
-								<li class="skill-1">JavaScript</li>
-								<li class="skill-2">CSS3</li>
-								<li class="skill-3">HTML5</li>
-								<li class="skill-4">PHP</li>
-								<li class="skill-5">MySQL</li>
-							</ul>
-						</div> <!-- End - Skill Names -->
-					</div>
-					<!--  Start - Skills Graph -->
-					<div class="columns four" id="skills-graph">
+					<div id="skills">
 						<ul>
-							<li><div class="skill-1"></div></li>
-							<li><div class="skill-2"></div></li>
-							<li><div class="skill-3"></div></li>	
-							<li><div class="skill-4" ></div></li>
-							<li><div class="skill-5"></div></li>
+							<li>
+								<h3>JavaScript <span class="rating five"></span></h3>
+								<div>Prototype, jQuery, DOM Manipulation</div>
+							</li>
+							<li>
+								<h3>CSS3 <span class="rating four"></span></h3>
+								<div>CSS preprecessors, Animations</div>
+							</li>
+							<li>
+								<h3>Drupal <span class="rating three"></span></h3>
+								<div>Theming, Module Development</div>
+							</li>
+							<li>
+								<h3>WordPress <span class="rating five"></span></h3>
+								<div>Theme Customization, Plugin Development</div>
+							</li>
 						</ul>
-					</div> <!--  End - Skills Graph -->
-				</div> <!--  End - Skills Section -->	
-				<div class="columns eight top-vertical-spacing">
-					<div class="columns seven">
-						<blockquote>Nam pharetra mollis erat quis pulvinar. Donec ut metus in libero elementum pulvinar vitae quis sapien. Proin nec diam purus, at imperdiet diam. Vivamus auctor, purus et vestibulum ullamcorper, tellus dolor iaculis risus, eu interdum urna est at tortor.</blockquote>
-						<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis, purus ac pharetra dapibus, lacus leo accumsan risus, id faucibus augue nisi vitae mi.</blockquote>
 					</div>
-				</div>
-			</div>
+					<div class="top-vertical-spacing">
+							<blockquote>Nam pharetra mollis erat quis pulvinar. Donec ut metus in libero elementum pulvinar vitae quis sapien. Proin nec diam purus, at imperdiet diam. Vivamus auctor, purus et vestibulum ullamcorper, tellus dolor iaculis risus, eu interdum urna est at tortor.</blockquote>
+							<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur facilisis, purus ac pharetra dapibus, lacus leo accumsan risus, id faucibus augue nisi vitae mi.</blockquote>
+					</div>
+				</div> <!--  End - Skills Section -->	
+			</div> 
 		  </li> <!-- End - Skills and Experience Tab -->
 		  
 		<li id="contact">
@@ -353,13 +349,13 @@
 						<div id="response"></div>
 						<form method="post" class="contact-form">		
 							<label>Name :</label>
-							<input id="form_name" type="text" required="required" name="name" value="">
+							<input id="form_name" type="text" name="name" value="">
 							<label>Email :</label>
-							<input id="form_email" type="text" required="required"  name="email" value="">
+							<input id="form_email" type="text" name="email" value="">
 							<label>Subject :</label>
-							<input id="form_subject" type="text" required="required" name="subject" value="">
+							<input id="form_subject" type="text" name="subject" value="">
 							<label>Message :</label>
-							<textarea name="message" class="Messagge Messagge" required="required"  id="form_message" rows="3"></textarea>
+							<textarea name="message" id="form_message" rows="3"></textarea>
 							<button id="form_submit" class="input-button" type="submit" name="submit" value="Send">Send</button>
 						</form> <!-- End - Contact Form -->
 					</div>
