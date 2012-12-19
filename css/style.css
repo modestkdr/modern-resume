@@ -98,13 +98,32 @@ ul.tabs {
 	margin:0 8px;
 	padding:3px;
 	border-radius:50px;
-	border:5px solid #ddd;
-	background:#fefefe;
+	/*border:5px solid #ddd; */
+	/*background:#fefefe; */
 }
 .social li:hover {
 	border-color:#eee;
-	background:#ddd;	
+	position: relative;
+	bottom: 1px;
+	/*background:#ddd; */	
 }
+ul.socialicons 						{ list-style-type: none; }
+ul.socialicons li					{ list-style-type: none; display: inline; float: left; padding: 0 5px 0 0; }
+ul.bw li a 							{ background: url('/modern-resume/icons/supermassivecsspriteicons.png') no-repeat 0 0; }
+ul.socialicons li a 				{ text-indent: -9999px; width: 32px; height: 33px; display: block; overflow: hidden; margin: 2px; }
+ul.socialicons li a.facebook 				{ background-position: 0 -73px; }
+ul.socialicons li a.facebook:hover 		{ background-position: -38px -73px; }
+ul.socialicons li a.twitter 				{ background-position: 0 -109px; }
+ul.socialicons li a.twitter:hover 		{ background-position: -38px -109px; }
+ul.socialicons li a.linkedin 				{ background-position: 0 -292px; }
+ul.socialicons li a.linkedin:hover 		{ background-position: -38px -292px; }
+ul.socialicons li a.github 					{ background-position: 0 -981px; }
+ul.socialicons li a.github:hover 		{ background-position: -38px -981px; }
+ul.socialicons li a.stackoverflow 			{ background-position: 0 -2016px; }
+ul.socialicons li a.stackoverflow:hover { background-position: -38px -2016px; }
+ul.socialicons li a.dribble 				{ background-position: 0 -803px; }
+ul.socialicons li a.dribble:hover 		{ background-position: -38px -803px; }
+
 .recent-works {
 	max-width:400px !important;
 }
@@ -337,8 +356,8 @@ ul ul, ul ol, ol ol, ol ul {
 		margin:0 auto;
 	}
 	.social li {
-		border-width:2px;
-		border-radius:20px;
+		/*border-width:2px; */
+		/*border-radius:20px;*/
 		margin:0 5px;
 	}
 	.profile, .siteinfo {
