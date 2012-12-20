@@ -2,16 +2,16 @@ modern-resume
 =============
 
 ## Overview 
-Modern - responsive resume template
+This is a responsive template which looks beautiful at any size, be it a laptop screen, tablet or a mobile browser.
 
-### Demo ### 
+### Demo
 http://srikanth.me/modern-resume/
 
 ### Features
-* Responsive slideshow on homepage
-* Filter items in portfolio by category
-* Contact form with validation
-* Background patterns
+* **Responsive Slideshow** to display your recent works on the homepage.
+* **Portfolio** section to display your projects as a filterable grid.
+* **Backgrounds** Multiple background patterns to choose from.
+* **Contact Form** A working contact form for website visitors to get in touch with you.
 
 ### Plugins used
 * [Flexslider](http://www.woothemes.com/flexslider/)
