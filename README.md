@@ -1,4 +1,8 @@
 modern-resume
 =============
 
-Modern - responsive resume template for themeforest sale
+Modern - responsive resume template
+
+### Credits
+
+#### Images from flickr (creative commons)
