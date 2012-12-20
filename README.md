@@ -4,7 +4,8 @@ modern-resume
 ## Overview 
 Modern - responsive resume template
 
-[**Demo**](http://srikanth.me/modern-resume/)
+### Demo ### 
+http://srikanth.me/modern-resume/
 
 ### Features
 * Responsive slideshow on homepage
@@ -25,15 +26,15 @@ Modern - responsive resume template
 
 **Images from flickr** (creative commons)
 
-(http://www.flickr.com/photos/seyyed_mostafa_zamani/6966965057/)
-(http://www.flickr.com/photos/marfis75/2681122468/)
-(http://www.flickr.com/photos/brunkfordbraun/6045044862/sizes/z/in/photostream/)
-(http://www.flickr.com/photos/stevendepolo/4528758992/sizes/z/in/photostream/
-(http://www.flickr.com/photos/frielp/6829509/)
-(http://www.flickr.com/photos/peasap/1680885692/sizes/z/in/photostream/)
-(http://www.flickr.com/photos/nanagyei/4391095134/sizes/z/in/photostream/)
-(http://www.flickr.com/photos/philon/2361598200/)
-(http://www.flickr.com/photos/mike9alive/475772723/)
-(http://www.flickr.com/photos/libertinus/8147099891/)
-(http://www.flickr.com/photos/striatic/271539079/)
+* http://www.flickr.com/photos/seyyed_mostafa_zamani/6966965057/
+* http://www.flickr.com/photos/marfis75/2681122468/
+* http://www.flickr.com/photos/brunkfordbraun/6045044862/sizes/z/in/photostream/
+* http://www.flickr.com/photos/stevendepolo/4528758992/sizes/z/in/photostream
+* http://www.flickr.com/photos/frielp/6829509/
+* http://www.flickr.com/photos/peasap/1680885692/sizes/z/in/photostream/
+* http://www.flickr.com/photos/nanagyei/4391095134/sizes/z/in/photostream/
+* http://www.flickr.com/photos/philon/2361598200/
+* http://www.flickr.com/photos/mike9alive/475772723/
+* http://www.flickr.com/photos/libertinus/8147099891/
+* http://www.flickr.com/photos/striatic/271539079/
 
