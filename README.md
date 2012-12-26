@@ -13,6 +13,12 @@ http://srikanth.me/modern-resume/
 * **Backgrounds** Multiple background patterns to choose from.
 * **Contact Form** A working contact form for website visitors to get in touch with you.
 
+### Screenshots
+![Homepage](http://www.srikanth.me/modern-resume/screenshots/front.jpg)
+![Portfolio](http://www.srikanth.me/modern-resume/screenshots/portfolio.png)
+![Skills](http://www.srikanth.me/modern-resume/screenshots/skills.png)
+
+
 ### Plugins used
 * [Flexslider](http://www.woothemes.com/flexslider/)
 * [Quicksand](http://razorjack.net/quicksand/)
