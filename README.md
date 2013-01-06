@@ -18,6 +18,11 @@ http://srikanth.me/modern-resume/
 * [Quicksand](http://razorjack.net/quicksand/)
 * [PrettyPhoto](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/)
 
+### License
+This project is released under MIT license. 
+
+Feel free to use the code for any projects - non-commercial and commercial. Please do respect the appropriate licenses of the jQuery plugins and placeholder images used in this project. 
+
 ### Credits
 
 * [Skeleton boilerplate](http://www.getskeleton.com/)
