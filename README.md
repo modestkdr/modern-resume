@@ -8,7 +8,6 @@ This is a responsive template which looks beautiful at any size, be it a laptop 
 http://srikanth.me/modern-resume/
 
 ### Screenshots
-![Homepage](http://www.srikanth.me/modern-resume/screenshots/front.jpg)
 ![Portfolio](http://www.srikanth.me/modern-resume/screenshots/portfolio.png)
 ![Skills](http://www.srikanth.me/modern-resume/screenshots/skills.png)
 
