@@ -9,13 +9,6 @@ $(document).ready(function() {
 	 $('#home-t').click(function() {
 		 $('#clone-site-details, #clone-logo').fadeOut('4000');
 	 })
- 
-	/* Background Switcher */
-	$('.bg-switcher').click( function() {
-		var bgNumber = $(this).attr("value");
-		$('body').css("background-image","url(background-patterns/bg"+bgNumber+".png)");
-	});
-
 
 	/* Contact Form - validation and response */
 	$("#form_submit").click(function(){
