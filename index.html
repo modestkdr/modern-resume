@@ -35,10 +35,22 @@
 </head>
 
 <body>
-<div class="columns sixteen container">
-	<div class="siteinfo" id="clone-logo"></div>
-	<div class="siteinfo" id="clone-site-details"></div>
+<div id="banner" class="columns sixteen container">
+	<div class="columns two profile alpha">
+		<!-- Start - Profile Image -->
+		<a href="#">
+			<img class="profie-image" alt="john doe" src="images/headshot.png" width="100" height="100" />
+		</a>
+		<!-- End - Profile Image -->
+	</div>
+	<div class="columns four siteinfo">	
+		<!-- Start - Siteinfo -->
+		<h1><a href="#">John Doe</a></h1>
+		<h3>Web Developer</h3>
+		<!-- End - Siteinfo -->
+	</div>
 </div>
+
 <div class="columns sixteen container menu">
 	<!-- Start - Main Menu -->
 	<ul id="main-menu" class="tabs">
@@ -54,15 +66,15 @@
 		<!--  Start - Home Tab -->
 		<li class="active" id="home">
 			<div id="header">
-				<div class="columns seven ">
-					<div id="logo" class="columns two profile alpha">
+				<div id="bannerHeader" class="columns seven ">
+					<div class="columns two profile alpha">
 						<!-- Start - Profile Image -->
 						<a href="#">
-							<img id="profie-image" alt="john doe" src="images/headshot.png" width="100" height="100" />
+							<img class="profie-image" alt="john doe" src="images/headshot.png" width="100" height="100" />
 						</a>
 						<!-- End - Profile Image -->
 					</div>
-					<div id="site-details" class="columns four siteinfo">	
+					<div class="columns four siteinfo">	
 						<!-- Start - Siteinfo -->
 						<h1><a href="#">John Doe</a></h1>
 						<h3>Web Developer</h3>
@@ -334,7 +346,7 @@
 							<input id="form_subject" type="text" name="subject" value="">
 							<label>Message :</label>
 							<textarea name="message" id="form_message" rows="3"></textarea>
-							<button id="form_submit" class="input-button" type="submit" name="submit" value="Send">Send</button>
+							<input type="button" onclick="toSend()" value="Send" class="input-button" />
 						</form> <!-- End - Contact Form -->
 					</div>
 				</div>
