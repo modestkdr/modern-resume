@@ -4,9 +4,6 @@ modern-resume
 ## Overview 
 This is a responsive template which looks beautiful at any size, be it a laptop screen, tablet or a mobile browser.
 
-### Demo
-http://srikanth.me/modern-resume/
-
 ### Screenshots
 ![Portfolio](http://www.srikanth.me/modern-resume/screenshots/portfolio.png)
 ![Skills](http://www.srikanth.me/modern-resume/screenshots/skills.png)
